@@ -1,0 +1,15 @@
+[package]
+name = "WearableSync"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x5b3d52ea3dd30959ce9372857fb5f5a64ef26ec2cefca91e780e9e668455d3dc"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
